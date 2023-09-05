@@ -98,6 +98,14 @@ position: relative;
 top: 2rem;
 }
 
+.Tarjeta{
+display: grid;
+grid-template-columns: repeat(
+    auto-fit, 
+    minmax(150px, 1fr)
+);
+}
+
 /* imagen  */
 
 .contImmg {
@@ -385,13 +393,16 @@ background-color:floralwhite;
 @media screen and (max-width: 600px) {
  /* Porfolio */
 
-.Tarjeta {
+/* .Tarjeta {
    display: block;
 }
 
 .card {
     display: block;
+    
 }
+ */
+
 
 /* Habilidades */
 
