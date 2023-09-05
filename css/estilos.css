@@ -30,6 +30,10 @@ color:floralwhite !important;
 position: relative;
 }
 
+a {
+color: floralwhite !important;
+}
+
 
 .nav-link::after {
 content: "";
@@ -205,15 +209,13 @@ height: 0px;
 
 
 
-.cont_Importante {
+.section_Habi {
 margin-left: 10px;
 margin-top: 3rem;
+border: dotted;
 }
 
-.cont__Importante {
-margin-bottom: 10px;
-margin-bottom: 3rem;
-}
+
 
 /* Columna dos  */
 
