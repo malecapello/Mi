@@ -98,12 +98,17 @@ position: relative;
 top: 2rem;
 }
 
-.Tarjeta{
+/* .Tarjeta{
 display: grid;
 grid-template-columns: repeat(
     auto-fit, 
     minmax(150px, 1fr)
 );
+} */
+
+.Tarjeta {
+display: flex;
+flex-wrap: wrap;
 }
 
 /* imagen  */
@@ -393,16 +398,33 @@ background-color:floralwhite;
 @media screen and (max-width: 600px) {
  /* Porfolio */
 
-/* .Tarjeta {
-   display: block;
+ .Miprese1 {
+font-size: 15px;
 }
 
-.card {
-    display: block;
-    
+.Miprese__2 {
+font-size: 12px ;
 }
- */
 
+.Miprese__3 {
+font-size: medium;
+}
+
+.Misproye {
+font-size: medium;
+}
+
+.immgPrese {
+display: none;
+}
+
+.siguePrese {
+font-size: 15px;
+}
+
+.seccion2 {
+height: 700px;
+}
 
 /* Habilidades */
 
