@@ -253,8 +253,7 @@ clip-path: circle(50% at 50% 50%);
 }
 
 .Textopresentacion {
-margin-top: 40px;
-float: left;
+margin-top: 100px;
 font-size: 20px;
 }
 
@@ -403,7 +402,7 @@ font-size: 15px;
 }
 
 .Miprese__2 {
-font-size: 12px ;
+font-size: 20px ;
 }
 
 .Miprese__3 {
@@ -430,18 +429,11 @@ height: 700px;
 
 .titulo{
     display: block;
+    font-size: 12px;
+    width: 100%;
 }
 
-.imgCodigo{
-    display: none;
-}
-
-
-.imgGoogle{
-    display: none;
-}
-
-.ilustracionSeo {
+.imgHabi {
     display: none;
 }
 
@@ -449,14 +441,34 @@ height: 700px;
 .lista ul {
     display: block;
     width: 100%;
+    font-size: medium;
+}
+
+.section_Habi {
+width: 100%;
+font-size: 14px;
 }
 
 /* Acerca de  */
-/* 
-.cont__immg {
-    display: block;
- 
-} */
 
+.cont__immg {
+display: block;
+width: 100%;
+justify-content: center;
+ 
+}
+
+.immg {
+width: 100%;
 
 }
+
+}
+
+@media screen and (max-width: 770px) {
+    .seccion2 {
+        height: 700px;
+        }
+}
+
+
