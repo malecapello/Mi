@@ -98,13 +98,6 @@ position: relative;
 top: 2rem;
 }
 
-/* .Tarjeta{
-display: grid;
-grid-template-columns: repeat(
-    auto-fit, 
-    minmax(150px, 1fr)
-);
-} */
 
 .Tarjeta {
 display: flex;
@@ -247,6 +240,8 @@ text-align: center;
 }
 
 .immg {
+width: 400px;
+height: 400px;
 margin-top: 40px;
 margin-left: 20px;
 clip-path: circle(50% at 50% 50%);
@@ -395,7 +390,8 @@ background-color:floralwhite;
 /* MEDIA QUERYS */
 
 @media screen and (max-width: 600px) {
- /* Porfolio */
+
+    /* PORFOLIO*/
 
  .Miprese1 {
 font-size: 15px;
@@ -406,7 +402,7 @@ font-size: 20px ;
 }
 
 .Miprese__3 {
-font-size: medium;
+font-size: 17px;
 }
 
 .Misproye {
@@ -418,19 +414,21 @@ display: none;
 }
 
 .siguePrese {
-font-size: 15px;
+font-size: 17px;
 }
 
 .seccion2 {
 height: 700px;
 }
 
-/* Habilidades */
+/* HABILIDADES */
 
 .titulo{
     display: block;
-    font-size: 12px;
+    font-size: 17px;
     width: 100%;
+    margin-bottom:0px ;
+    padding-top: 40px;
 }
 
 .imgHabi {
@@ -441,15 +439,15 @@ height: 700px;
 .lista ul {
     display: block;
     width: 100%;
-    font-size: medium;
+    font-size: 17px;
 }
 
 .section_Habi {
 width: 100%;
-font-size: 14px;
+font-size: 17px;
 }
 
-/* Acerca de  */
+/* ACERCADE  */
 
 .cont__immg {
 display: block;
@@ -459,9 +457,23 @@ justify-content: center;
 }
 
 .immg {
-width: 100%;
-
+margin-left: 0px;
+width: 300px;
+height: 300px;
 }
+
+.Textopresentacion {
+margin-top: 86px;
+font-size: 17px;
+}
+
+
+/* FORMULARIO DE CONTACTO */
+
+.tituloContac {
+font-size: 20px;
+}
+
 
 }
 
