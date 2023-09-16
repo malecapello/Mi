@@ -1,0 +1,97 @@
+ /* MEDIA QUERYS */
+    
+ @media screen and (max-width: 600px) {
+    
+    /* PORFOLIO*/
+
+ .Miprese1 {
+font-size: 15px;
+}
+
+.Miprese__2 {
+font-size: 20px ;
+}
+
+.Miprese__3 {
+font-size: 17px;
+}
+
+.Misproye {
+font-size: medium;
+}
+
+.immgPrese {
+width: 300px;
+height: 212px;
+}
+
+.siguePrese {
+font-size: 17px;
+}
+
+.seccion2 {
+height: 700px;
+}
+
+/* HABILIDADES */
+
+.titulo{
+    display: block;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom:0px ;
+    padding-top: 40px;
+}
+
+.imgHabi {
+    display: none;
+}
+
+
+.lista ul {
+    display: block;
+    width: 100%;
+    font-size: 17px;
+}
+
+.section_Habi {
+width: 100%;
+font-size: 17px;
+}
+
+/* ACERCADE  */
+
+.cont__immg {
+display: block;
+width: 100%;
+justify-content: center;
+ 
+}
+
+.immg {
+margin-left: 0px;
+width: 300px;
+height: 300px;
+}
+
+.Textopresentacion {
+margin-top: 86px;
+font-size: 17px;
+}
+
+
+/* FORMULARIO DE CONTACTO */
+
+.tituloContac {
+font-size: 20px;
+}
+
+
+}
+
+@media screen and (max-width: 770px) {
+    .seccion2 {
+        height: 700px;
+        }
+}
+

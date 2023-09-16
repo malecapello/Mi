@@ -1,0 +1,417 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* PORFOLIO */
+/* Barra de navegacion */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* width: 100vw; */
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #571359 !important;
+}
+
+.nav-link {
+  color: floralwhite !important;
+  position: relative;
+}
+
+a {
+  color: floralwhite !important;
+}
+
+.nav-link::after {
+  content: "";
+  width: 0;
+  height: 4px;
+  background-color: #D7B4BA;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transition: all 0.5s;
+  will-change: width;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  right: 0;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: none;
+}
+
+.collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* Mi presentacion  */
+.Miprese1 {
+  margin-top: 80px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.Miprese__2 {
+  margin-bottom: 10px;
+  font-size: 70px;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.Miprese__3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 100;
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.Misproye {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  color: beige;
+  position: relative;
+  top: 2rem;
+}
+
+.Tarjeta {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* imagen  */
+.contImmg {
+  display: flex;
+  justify-content: center;
+}
+
+.immgPrese {
+  width: 650px;
+  height: 464px;
+}
+
+/* Parte de mis proyectos */
+.seccion2 {
+  background: rgb(87, 19, 89);
+  height: 450px;
+}
+
+.Tarjeta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.colum1 {
+  flex: none;
+  padding: 0.73rem;
+}
+
+.card-body {
+  margin-top: 30px;
+}
+
+.card {
+  height: 270px;
+  width: 300px;
+  margin-top: 2rem;
+}
+
+.siguePrese {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* HABILIDADES */
+.Conn {
+  text-align: none;
+}
+
+.titulo {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.imgCodigo {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: 1rem;
+  top: 1.5rem;
+}
+
+.imgGoogle {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: 1rem;
+  top: 1.5rem;
+}
+
+h4 {
+  margin-left: 3rem;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.lista ul {
+  margin-left: 3rem;
+  text-rendering: optimizeLegibility;
+  margin-top: 0px;
+}
+
+.Cont {
+  width: 60%;
+  max-height: 100%;
+}
+
+.divMejoras {
+  margin-left: 10px;
+  margin-top: 3rem;
+}
+
+.colImg {
+  height: 0px;
+}
+
+.section_Habi {
+  margin-left: 10px;
+  margin-top: 3rem;
+  border: dotted;
+}
+
+/* Columna dos  */
+.imgHabi {
+  position: relative;
+  left: 42rem;
+  bottom: 31rem;
+}
+
+/* ACERCA DE  */
+.cont__immg {
+  display: flex;
+  text-align: center;
+}
+
+.immg {
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+  margin-left: 20px;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.Textopresentacion {
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+h2 {
+  position: relative;
+  top: 5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+/* FORMULARIO DE CONTACTO */
+.tituloContac {
+  margin-top: 4rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.row {
+  margin-top: 40px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-control {
+  width: 300px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-group {
+  width: 300px;
+}
+
+.btn {
+  background-color: rgb(87, 19, 89);
+  border: #0A0A00;
+}
+
+.btn:hover {
+  background-color: #703c72;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  padding: 0px 0px;
+  background-image: linear-gradient(to right bottom, #571359, #64632b);
+}
+
+.container_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.box__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.box__footer .logo img {
+  width: 180px;
+  position: relative;
+  right: 2px;
+}
+
+.box__footer .terms {
+  max-width: 350px;
+  color: floralwhite;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.box__footer h3 {
+  margin-bottom: -1px;
+  color: #D7B4BA;
+}
+
+.box__footer a {
+  margin-top: 10px;
+  color: floralwhite;
+  text-decoration: none;
+}
+
+.box__footer a:hover {
+  opacity: 0.5;
+}
+
+.box__footer a .fa-brands {
+  padding-left: 0px;
+  width: 19px;
+}
+
+.box__copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.box__copyright p {
+  margin-top: 20px;
+  color: floralwhite;
+}
+
+.box__copyright hr {
+  border: none;
+  height: 1px;
+  background-color: floralwhite;
+}
+
+/* MEDIA QUERYS */
+@media screen and (max-width: 600px) {
+  /* PORFOLIO*/
+  .Miprese1 {
+    font-size: 15px;
+  }
+  .Miprese__2 {
+    font-size: 20px;
+  }
+  .Miprese__3 {
+    font-size: 17px;
+  }
+  .Misproye {
+    font-size: medium;
+  }
+  .immgPrese {
+    width: 300px;
+    height: 212px;
+  }
+  .siguePrese {
+    font-size: 17px;
+  }
+  .seccion2 {
+    height: 700px;
+  }
+  /* HABILIDADES */
+  .titulo {
+    display: block;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-top: 40px;
+  }
+  .imgHabi {
+    display: none;
+  }
+  .lista ul {
+    display: block;
+    width: 100%;
+    font-size: 17px;
+  }
+  .section_Habi {
+    width: 100%;
+    font-size: 17px;
+  }
+  /* ACERCADE  */
+  .cont__immg {
+    display: block;
+    width: 100%;
+    justify-content: center;
+  }
+  .immg {
+    margin-left: 0px;
+    width: 300px;
+    height: 300px;
+  }
+  .Textopresentacion {
+    margin-top: 86px;
+    font-size: 17px;
+  }
+  /* FORMULARIO DE CONTACTO */
+  .tituloContac {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .seccion2 {
+    height: 700px;
+  }
+}/*# sourceMappingURL=estilos.css.map */

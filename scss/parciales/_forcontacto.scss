@@ -1,0 +1,39 @@
+ /* FORMULARIO DE CONTACTO */
+    
+ .tituloContac {
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    }
+    
+    .row {
+    margin-top: 40px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    
+    .form-control {
+    width: 300px;
+    }
+    
+    .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    
+    .input-group {
+    width: 300px;
+    }
+    
+    .btn {
+    background-color: rgba(87, 19, 89, 1) ;
+    border: #0A0A00;
+    }
+    
+    .btn:hover {
+    background-color: #703c72 ;
+    }

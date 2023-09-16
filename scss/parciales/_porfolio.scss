@@ -1,0 +1,156 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+    
+    /* PORFOLIO */
+    /* Barra de navegacion */
+    
+    html {
+    scroll-behavior: smooth;
+    }
+    
+    body {
+    /* width: 100vw; */
+    font-family: 'Poppins', sans-serif;
+    }
+    
+    
+    .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #571359 !important;
+    }
+    
+    .nav-link  {
+    color:floralwhite !important;
+    position: relative;
+    }
+    
+    a {
+    color: floralwhite !important;
+    }
+    
+    
+    .nav-link::after {
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: #D7B4BA ;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+    }
+    
+    .nav-link:hover::after {
+    width: 100%;
+    right: 0;
+    }
+    
+    
+    .bg-body-tertiary {
+    --bs-bg-opacity: none;
+    }
+    
+    
+    .collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    }
+    
+    /* Mi presentacion  */
+    
+    .Miprese1 {
+    margin-top: 80px;
+    font-size: 25px;
+    text-align: center;
+    }
+    
+    .Miprese__2 {
+    margin-bottom: 10px;
+    font-size: 70px;
+    margin-left: 0px;
+    text-align: center;
+    }
+    
+    .Miprese__3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    
+    }
+    
+    .Misproye {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: beige;
+    position: relative;
+    top: 2rem;
+    }
+    
+    
+    .Tarjeta {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    /* imagen  */
+    
+    .contImmg {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .immgPrese {
+    width: 650px;
+    height: 464px;
+    
+    }
+    
+    /* Parte de mis proyectos */
+    
+    .seccion2{
+    background: rgba(87, 19, 89, 1);
+    height: 450px;
+    }
+    
+    .Tarjeta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    }
+    
+    .colum1 {
+    flex: none;
+    padding: 0.73rem;
+    }
+    
+    .card-body {
+    margin-top: 30px;
+    
+    }
+    
+    
+    .card {
+    height: 270px;
+    width: 300px;
+    margin-top: 2rem;
+    }
+    
+    .siguePrese {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 30px;
+    }
+    
